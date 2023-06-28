@@ -1,0 +1,2354 @@
+[
+  /*
+  to-do:
+  - tropics and swamp (ocean->temperate)
+  - dunelagoons
+  - slimeball
+  - living
+  */
+
+  // planetTypes - Planets
+
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_arid",
+    "value": {
+      "threatRange": [2, 2],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_arid"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [4, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_arid-tar",
+    "value": {
+      "threatRange": [2, 2],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_arid-tar"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [4, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_arid-toxic",
+    "value": {
+      "threatRange": [4, 4],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_arid-toxic"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [4, "apextestfacility"],
+            [4, "apexbase"],
+            [4, "apexcamp"],
+            [4, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [4, "glitchsewer"],
+            [4, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_boreal",
+    "value": {
+      "threatRange": [3, 3],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_boreal"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_charred",
+    "value": {
+      "threatRange": [2, 2],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_charred"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_cloudlands",
+    "value": {
+      "blockNoise": {
+        "horizontalNoise": {
+          "type": "Billow"
+        },
+        "verticalNoise": {
+          "type": "Perlin"
+        },
+        "noise": {
+          "type": "Billow"
+        }
+      },
+      "blendNoise": {
+        "type": "Billow"
+      },
+      "threatRange": [5, 5],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_cloudlands"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [4, "aviantemple"],
+            [4, "aviantomb"],
+            [4, "avianvillage"],
+            [4, "aviannativevillage"],
+            [4, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_cove",
+    "value": {
+      "blendSize": 30,
+      "threatRange": [3, 3],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_cove"],
+          "baseHeight": 1150,
+          "layerLevel": 1050
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_crystalline",
+    "value": {
+      "threatRange": [5, 5],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_crystalline"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [4, "dungeoncrawler"],
+            [4, "evilfortress"],
+            [4, "glitchcastle"],
+            [4, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_dunelagoons",
+    "value": {
+      "blendSize": 30,
+      "threatRange": [1, 1],
+      "layers": {
+        "space": {
+          "baseHeight": 2500,
+          "layerLevel": 2000
+        },
+        "atmosphere": {
+          "baseHeight": 1700,
+          "layerLevel": 1400
+        },
+        "surface": {
+          "primaryRegion": ["vsu_dunelagoons"],
+          "baseHeight": 1150,
+          "layerLevel": 1050
+        },
+        "subsurface": {
+          "baseHeight": 850,
+          "layerLevel": 800
+        },
+        "underground1": {
+          "baseHeight": 700,
+          "layerLevel": 600
+        },
+        "underground2": {
+          "baseHeight": 500,
+          "layerLevel": 400
+        },
+        "underground3": {
+          "baseHeight": 300,
+          "layerLevel": 200
+        },
+        "core": {
+          "baseHeight": 50,
+          "layerLevel": 0
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_floatingislands",
+    "value": {
+      "blendSize": 30, //important
+      "threatRange": [6, 6],
+      "layers": {
+        "space": {
+          "baseHeight": 2500,
+          "layerLevel": 2000
+        },
+        "atmosphere": {
+          "baseHeight": 1700,
+          "layerLevel": 1400
+        },
+        "surface": {
+          "primaryRegion": ["vsu_floatingislands-top"],
+          "secondaryRegions": [], //don't use; surface/subsurface parallaxes are linked
+          "baseHeight": 1100,
+          "layerLevel": 1000,
+          "dungeons": []
+        },
+        "subsurface": {
+          "primaryRegion": ["vsu_floatingislands-bottom"],
+          "secondaryRegions": [],
+          "baseHeight": 1000,
+          "layerLevel": 900,
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [4, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        },
+        "underground1": {
+          "baseHeight": 700,
+          "layerLevel": 600
+        },
+        "underground2": {
+          "baseHeight": 500,
+          "layerLevel": 400
+        },
+        "underground3": {
+          "baseHeight": 300,
+          "layerLevel": 200
+        },
+        "core": {
+          "baseHeight": 50,
+          "layerLevel": 0
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_forest-mushroom",
+    "value": {
+      "threatRange": [5, 5],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_forest-mushroom"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [4, "floranhuntinggrounds"],
+            [4, "florancanyon"],
+            [4, "floranvillagetower"],
+            [4, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_forest-rainbow",
+    "value": {
+      "threatRange": [2, 2],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_forest-rainbow"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [4, "floranhuntinggrounds"],
+            [4, "florancanyon"],
+            [4, "floranvillagetower"],
+            [4, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_forest-snow",
+    "value": {
+      "threatRange": [3, 3],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_forest-snow"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_forest-spooky",
+    "value": {
+      "threatRange": [5, 5],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_forest-spooky"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [4, "dungeoncrawler"],
+            [4, "evilfortress"],
+            [4, "glitchcastle"],
+            [4, "glitchvillage"],
+            [4, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_forest-tar",
+    "value": {
+      "threatRange": [2, 2],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_forest-tar"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_forest-toxic",
+    "value": {
+      "threatRange": [4, 4],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_forest-toxic"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [4, "apextestfacility"],
+            [4, "apexbase"],
+            [4, "apexcamp"],
+            [4, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [4, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_forest-volcanic",
+    "value": {
+      "threatRange": [6, 6],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_forest-volcanic"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [4, "dungeoncrawler"],
+            [4, "evilfortress"],
+            [4, "glitchcastle"],
+            [4, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_frostfire",
+    "value": {
+      "threatRange": [6, 6],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_frostfire"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [4, "apextestfacility"],
+            [4, "apexbase"],
+            [4, "apexcamp"],
+            [4, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_heck",
+    "value": {
+      "threatRange": [6, 6],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_heck"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [4, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [4, "floranvillagetower"],
+            [4, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [4, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_jungle-tar",
+    "value": {
+      "threatRange": [4, 4],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_jungle-tar"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_jungle-toxic",
+    "value": {
+      "threatRange": [4, 4],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_jungle-toxic"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [4, "apextestfacility"],
+            [4, "apexbase"],
+            [4, "apexcamp"],
+            [4, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [4, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_mountainous",
+    "value": {
+      "threatRange": [3, 3],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_mountainous"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [4, "dungeoncrawler"],
+            [4, "evilfortress"],
+            [4, "glitchcastle"],
+            [4, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_mountainous-snow",
+    "value": {
+      "threatRange": [5, 5],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_mountainous-snow"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [4, "apextestfacility"],
+            [4, "apexbase"],
+            [4, "apexcamp"],
+            [4, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_mountainous-tar",
+    "value": {
+      "threatRange": [3, 3],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_mountainous-tar"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_mountainous-toxic",
+    "value": {
+      "threatRange": [4, 4],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_mountainous-toxic"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [4, "apextestfacility"],
+            [4, "apexbase"],
+            [4, "apexcamp"],
+            [4, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [4, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_savannah-tar",
+    "value": {
+      "threatRange": [3, 3],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_savannah-tar"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [4, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_savannah-toxic",
+    "value": {
+      "threatRange": [4, 4],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_savannah-toxic"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [4, "apextestfacility"],
+            [4, "apexbase"],
+            [4, "apexcamp"],
+            [4, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [4, "glitchsewer"],
+            [4, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_icespire",
+    "value": {
+      "threatRange": [5, 5],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_icespire"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [4, "apextestfacility"],
+            [4, "apexbase"],
+            [4, "apexcamp"],
+            [4, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  /*{
+    "op": "add",
+    "path": "/planetTypes/vsu_slimeball",
+    "value": {
+      "threatRange": [4, 4],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_slimeball"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [4, "apextestfacility"],
+            [4, "apexbase"],
+            [4, "apexcamp"],
+            [4, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [4, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },*/
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_swamp",
+    "value": {
+      "blendSize": 30,
+      "threatRange": [4, 4],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_swamp"],
+          "baseHeight": 1150,
+          "layerLevel": 1050
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_tarball",
+    "value": {
+      "threatRange": [3, 3],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_tarball"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_tropics",
+    "value": {
+      "blendSize": 30,
+      "threatRange": [4, 4],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_tropics"],
+          "baseHeight": 1150,
+          "layerLevel": 1050
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_twilight",
+    "value": {
+      "threatRange": [5, 5],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_twilight"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_umbra",
+    "value": {
+      "threatRange": [5, 5],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_umbra"],
+          "secondaryRegions": [],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_volcanic-sulphuric",
+    "value": {
+      "threatRange": [6, 6],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_volcanic-sulphuric"],
+          "secondaryRegions": ["midnight", "desert", "scorchedcity", "forest"],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [4, "dungeoncrawler"],
+            [4, "evilfortress"],
+            [4, "glitchcastle"],
+            [4, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [1, "novakidvillage"]
+          ]
+        },
+        "core": {
+          "primaryRegion": ["vsu_sulphuricmagmarockcorelayer"]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_wasteland",
+    "value": {
+      "threatRange": [6, 6],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["vsu_wasteland"],
+          "secondaryRegions": ["vsu_wastelandmesas"],
+          "dungeons": [
+            [1, "apextestfacility"],
+            [1, "apexbase"],
+            [1, "apexcamp"],
+            [1, "apexcity"],
+            [1, "aviantemple"],
+            [1, "aviantomb"],
+            [1, "avianvillage"],
+            [1, "aviannativevillage"],
+            [1, "avianairship"],
+            [1, "floranhuntinggrounds"],
+            [1, "florancanyon"],
+            [1, "floranvillagetower"],
+            [1, "floranhutvillage"],
+            [1, "dungeoncrawler"],
+            [1, "evilfortress"],
+            [1, "glitchcastle"],
+            [1, "glitchvillage"],
+            [1, "hylotlruinedcastle"],
+            [1, "hylotlcity"],
+            [1, "humanprison"],
+            [1, "humancamp"],
+            [1, "glitchsewer"],
+            [4, "novakidvillage"]
+          ]
+        }
+      }
+    }
+  },
+
+  // planetTypes - Moons
+
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_moon-crystalline",
+    "value": {
+      "gravityRange": [20, 20],
+      "threatRange": [1, 1],
+      "layers": {
+        "space": {
+          "primaryRegion": ["barrenasteroids"]
+        },
+        "atmosphere": {
+          "primaryRegion": ["void"]
+        },
+        "surface": {
+          "primaryRegion": ["vsu_moon-crystalline"]
+        },
+        "subsurface": {
+          "primaryRegion": ["moonunderground"]
+        },
+        "underground1": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "underground2": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "underground3": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "core": {
+          "primaryRegion": ["mooncore"],
+          "baseHeight": 150
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_moon-frozen",
+    "value": {
+      "gravityRange": [20, 20],
+      "threatRange": [1, 1],
+      "layers": {
+        "space": {
+          "primaryRegion": ["barrenasteroids"]
+        },
+        "atmosphere": {
+          "primaryRegion": ["void"]
+        },
+        "surface": {
+          "primaryRegion": ["vsu_moon-frozen"]
+        },
+        "subsurface": {
+          "primaryRegion": ["moonunderground"]
+        },
+        "underground1": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "underground2": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "underground3": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "core": {
+          "primaryRegion": ["mooncore"],
+          "baseHeight": 150
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_moon-metallic",
+    "value": {
+      "gravityRange": [20, 20],
+      "threatRange": [1, 1],
+      "layers": {
+        "space": {
+          "primaryRegion": ["barrenasteroids"]
+        },
+        "atmosphere": {
+          "primaryRegion": ["void"]
+        },
+        "surface": {
+          "primaryRegion": ["vsu_moon-metallic"]
+        },
+        "subsurface": {
+          "primaryRegion": ["moonunderground"]
+        },
+        "underground1": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "underground2": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "underground3": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "core": {
+          "primaryRegion": ["mooncore"],
+          "baseHeight": 150
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_moon-rock",
+    "value": {
+      "gravityRange": [20, 20],
+      "threatRange": [1, 1],
+      "layers": {
+        "space": {
+          "primaryRegion": ["barrenasteroids"]
+        },
+        "atmosphere": {
+          "primaryRegion": ["void"]
+        },
+        "surface": {
+          "primaryRegion": ["vsu_moon-rock"]
+        },
+        "subsurface": {
+          "primaryRegion": ["moonunderground"]
+        },
+        "underground1": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "underground2": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "underground3": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "core": {
+          "primaryRegion": ["mooncore"],
+          "baseHeight": 150
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_moon-toxic",
+    "value": {
+      "gravityRange": [20, 20],
+      "threatRange": [1, 1],
+      "layers": {
+        "space": {
+          "primaryRegion": ["barrenasteroids"]
+        },
+        "atmosphere": {
+          "primaryRegion": ["void"]
+        },
+        "surface": {
+          "primaryRegion": ["vsu_moon-toxic"]
+        },
+        "subsurface": {
+          "primaryRegion": ["moonunderground"]
+        },
+        "underground1": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "underground2": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "underground3": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "core": {
+          "primaryRegion": ["mooncore"],
+          "baseHeight": 150
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/vsu_moon-volcanic",
+    "value": {
+      "gravityRange": [20, 20],
+      "threatRange": [1, 1],
+      "layers": {
+        "space": {
+          "primaryRegion": ["barrenasteroids"]
+        },
+        "atmosphere": {
+          "primaryRegion": ["void"]
+        },
+        "surface": {
+          "primaryRegion": ["vsu_moon-volcanic"]
+        },
+        "subsurface": {
+          "primaryRegion": ["moonunderground"]
+        },
+        "underground1": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "underground2": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "underground3": {
+          "primaryRegion": ["moonunderground"],
+          "secondaryRegions": []
+        },
+        "core": {
+          "primaryRegion": ["mooncore"],
+          "baseHeight": 150
+        }
+      }
+    }
+  },
+
+  // regionTypes - Biomes
+
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_arid",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_arid"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_arid-tar",
+    "value": {
+      "caveLiquid": ["tarliquid"],
+      "caveLiquidSeedDensityRange": [20, 20],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_arid-tar"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_arid-toxic",
+    "value": {
+      "caveLiquid": ["poison"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_arid-toxic"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_boreal",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_boreal"]]],
+      "subRegion": [
+        "eyepatch",
+        "mushroom",
+        "vsu_microsnowforest",
+        "vsu_toxicplains"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_charred",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_charred"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_cloudlands",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_cloudlands"]]],
+      "subRegion": ["vsu_cloudforest"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_cove",
+    "value": {
+      "oceanLiquid": ["water"],
+      "caveLiquid": ["water"],
+      "caveLiquidSeedDensityRange": [20, 20],
+      "blockSelector": ["remixedSpikesSurface2"],
+      "fgCaveSelector": ["moonSurfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_cove"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_crystalline",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_crystalline"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_floatingislands-top",
+    "value": {
+      "caveLiquid": ["healingliquid"],
+      "caveLiquidSeedDensityRange": [1, 4],
+      "blockSelector": ["vsu_floatingIslandsSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_floatingislands-top"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_floatingislands-bottom",
+    "value": {
+      "caveLiquid": ["healingliquid"],
+      "caveLiquidSeedDensityRange": [1, 2],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_floatingislands-bottom"]]],
+      "subRegion": [
+        "eyepatch",
+        "vsu_floatinggiantflowers-bottom",
+        "vsu_floatingmushroom-bottom",
+        "vsu_floatingspring-bottom",
+        "vsu_microsnowforest",
+        "vsu_toxicplains"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_forest-mushroom",
+    "value": {
+      "caveLiquid": ["poison"], //mutagen?
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_forest-mushroom"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_forest-rainbow",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_forest-rainbow"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_forest-snow",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_forest-snow"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_forest-spooky",
+    "value": {
+      "caveLiquid": ["vsu_pulsatingslime"],
+      "caveLiquidSeedDensityRange": [1.5, 2.0],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_forest-spooky"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_forest-tar",
+    "value": {
+      "caveLiquid": ["tarliquid"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_forest-tar"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_forest-toxic",
+    "value": {
+      "caveLiquid": ["poison"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_forest-toxic"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_forest-volcanic",
+    "value": {
+      "caveLiquid": ["lava"],
+      "caveLiquidSeedDensityRange": [1, 2],
+      "encloseLiquids": true,
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_forest-volcanic"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_frostfire",
+    "value": {
+      "caveLiquid": ["lava"],
+      "caveLiquidSeedDensityRange": [1, 3],
+      "encloseLiquids": true,
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_frostfire"]]],
+      "subRegion": ["vsu_crystal", "vsu_fireice"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_heck",
+    "value": {
+      "caveLiquid": ["lava"],
+      "caveLiquidSeedDensityRange": [1.5, 2.0],
+      "encloseLiquids": true,
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_heck"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_jungle-tar",
+    "value": {
+      "caveLiquid": ["tarliquid"],
+      "caveLiquidSeedDensityRange": [20, 20],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_jungle-tar"]]],
+      "subRegion": [
+        "eyepatch",
+        "flesh",
+        "giantflowers",
+        "mushroom",
+        "vsu_microsnowforest"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_jungle-toxic",
+    "value": {
+      "caveLiquid": ["poison"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_jungle-toxic"]]],
+      "subRegion": [
+        "eyepatch",
+        "flesh",
+        "giantflowers",
+        "mushroom",
+        "vsu_microsnowforest",
+        "vsu_toxicplains"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_dunelagoons",
+    "value": {
+      "oceanLiquid": ["healingliquid"],
+      "caveLiquid": ["healingliquid"],
+      "caveLiquidSeedDensityRange": [20, 20],
+      "fillMicrodungeons": true,
+      "blockSelector": ["vsu_duneLagoonsSurface"],
+      "fgCaveSelector": ["empty"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_dunelagoons"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_mountainous",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedMountainsSurface", "vsu_mountainousSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_mountainous"]]],
+      "subRegion": ["steamspring", "vsu_microsnowforest"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_mountainous-snow",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedMountainsSurface", "vsu_mountainousSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_mountainous-snow"]]],
+      "subRegion": [
+        "steamspring",
+        "vsu_geometric",
+        "vsu_ice",
+        "vsu_microsnowforest",
+        "vsu_orb"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_mountainous-tar",
+    "value": {
+      "caveLiquid": ["tarliquid"],
+      "caveLiquidSeedDensityRange": [20, 20],
+      "blockSelector": ["remixedMountainsSurface", "vsu_mountainousSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_mountainous-tar"]]],
+      "subRegion": ["bones", "tar"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_mountainous-toxic",
+    "value": {
+      "caveLiquid": ["poison"],
+      "blockSelector": ["remixedMountainsSurface", "vsu_mountainousSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_mountainous-toxic"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_savannah-tar",
+    "value": {
+      "caveLiquid": ["tarliquid"],
+      "caveLiquidSeedDensityRange": [20, 20],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_savannah-tar"]]],
+      "subRegion": ["bones", "tar"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_savannah-toxic",
+    "value": {
+      "caveLiquid": ["poison"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_savannah-toxic"]]],
+      "subRegion": ["vsu_toxicplains"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_icespire",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_icespire"]]],
+      "subRegion": [
+        "alpine",
+        "bioluminescence",
+        "prism",
+        "steamspring",
+        "vsu_geometric",
+        "vsu_ice",
+        "vsu_microsnowforest",
+        "vsu_orb"
+      ]
+    }
+  },
+  /*{
+    "op": "add",
+    "path": "/regionTypes/vsu_slimeball",
+    "value": {
+      "caveLiquid": ["slimeliquid"],
+      "caveLiquidSeedDensityRange": [20, 20],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_slimeball"]]],
+      "subRegion": []
+    }
+  },*/
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_swamp",
+    "value": {
+      "oceanLiquid": ["swampwater"],
+      "blockSelector": ["remixedSwampySurface"],
+      "fgCaveSelector": ["empty"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_swamp"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_tarball",
+    "value": {
+      "caveLiquid": ["tarliquid"],
+      "caveLiquidSeedDensityRange": [20, 20],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_tarball"]]],
+      "subRegion": ["bones", "tar", "vsu_bonefield", "vsu_trashfield"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_tropics",
+    "value": {
+      "oceanLiquid": ["water"],
+      "blockSelector": ["remixedSwampySurface"],
+      "fgCaveSelector": ["empty"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_tropics"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_twilight",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_twilight"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_umbra",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_umbra"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_volcanic-sulphuric",
+    "value": {
+      "caveLiquid": ["vsu_flamingsulphur"],
+      "caveLiquidSeedDensityRange": [1, 3],
+      "encloseLiquids": true,
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_volcanic-sulphuric"]]],
+      "subRegion": ["geode", "rust", "vsu_ashlion"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_wasteland",
+    "value": {
+      "caveLiquid": ["swampwater"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_wasteland"]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_wastelandmesas",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["vsu_mesasSurface", "vsu_mesasSurface2"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_wastelandmesas"]]],
+      "subRegion": ["bones", "colourful", "oasis", "tar"]
+    }
+  },
+
+  // regionTypes - Moons
+
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_moon-crystalline",
+    "value": {
+      "blockSelector": ["remixedSurface"],
+      "fgCaveSelector": ["moonSurfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_moon-crystalline"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_moon-frozen",
+    "value": {
+      "blockSelector": ["remixedSurface"],
+      "fgCaveSelector": ["moonSurfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_moon-frozen"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_moon-metallic",
+    "value": {
+      "blockSelector": ["remixedSurface"],
+      "fgCaveSelector": ["moonSurfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_moon-metallic"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_moon-rock",
+    "value": {
+      "blockSelector": ["remixedSurface"],
+      "fgCaveSelector": ["moonSurfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_moon-rock"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_moon-toxic",
+    "value": {
+      "blockSelector": ["remixedSurface"],
+      "fgCaveSelector": ["moonSurfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_moon-toxic"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_moon-volcanic",
+    "value": {
+      "blockSelector": ["remixedSurface"],
+      "fgCaveSelector": ["moonSurfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_moon-volcanic"]]]
+    }
+  },
+
+  // regionTypes - Minibiomes
+
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_ashlion",
+    "value": {
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_ashlion"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_bonefield",
+    "value": {
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_bonefield"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_cloudforest",
+    "value": {
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_cloudforest"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_crystal",
+    "value": {
+      "caveLiquid": ["lava"],
+      "caveLiquidSeedDensityRange": [1, 3],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_crystal"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_fireice",
+    "value": {
+      "caveLiquid": ["lava"],
+      "caveLiquidSeedDensityRange": [1, 2],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_fireice"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_floatinggiantflowers-bottom",
+    "value": {
+      "caveLiquid": ["healingliquid"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "biome": [[0, ["giantflowers"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_floatingmushroom-bottom",
+    "value": {
+      "caveLiquid": ["healingliquid"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_floatingmushroom-bottom"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_floatingspring-bottom",
+    "value": {
+      "caveLiquid": ["healingliquid"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["spring"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_geometric",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_geometric"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_ice",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_ice"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_microsnowforest",
+    "value": {
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_microsnowforest"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_orb",
+    "value": {
+      "caveLiquid": ["water"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_orb"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_toxicplains",
+    "value": {
+      "caveLiquid": ["poison"],
+      "caveLiquidSeedDensityRange": [20, 20],
+      "encloseLiquids": true,
+      "blockSelector": ["remixedPoolsSurface"],
+      "fgCaveSelector": ["empty"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_toxicplains"]]]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_trashfield",
+    "value": {
+      "caveLiquid": ["poison"],
+      "blockSelector": ["remixedSurface", "remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["vsu_trashfield"]]]
+    }
+  },
+
+  // regionTypes - Core
+
+  {
+    "op": "add",
+    "path": "/regionTypes/vsu_sulphuricmagmarockcorelayer",
+    "value": {
+      "caveLiquid": ["vsu_flamingsulphur"],
+      "caveLiquidSeedDensityRange": [4, 4],
+      "oceanLiquid": ["vsu_flamingsulphur"],
+      "oceanLevelOffset": -20,
+      "fgCaveSelector": ["coreCaves"],
+      "bgCaveSelector": ["coreBackgroundCaves"],
+      "biome": [[1, ["vsu_sulphuricmagmarockcorelayer"]]]
+    }
+  }
+]

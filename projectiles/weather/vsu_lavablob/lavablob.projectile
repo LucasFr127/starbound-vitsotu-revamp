@@ -1,0 +1,26 @@
+{
+  "projectileName": "vsu_lavablob",
+  "image": "lavablob.png",
+  "animationCycle": 0.5,
+  "frameNumber": 3,
+  "damageKindImage": "icon.png",
+  "pointLight": false,
+  "actionOnReap": [
+    {
+      "action": "config",
+      "file": "/projectiles/explosions/vsu_lavaexplosion/lavaexplosion.config"
+    },
+    {
+      "action": "liquid",
+      "liquid": "lava",
+      "quantity": 2
+    }
+  ],
+  "power": 50.0,
+  "lightColor": [189, 26, 0],
+  "emitters": ["fireflames"],
+  "damagePoly" : [ [-8, 0], [2, 3], [8, 0], [2, -3] ],
+  "damageKind": "fire",
+  "damageType": "ignoresdef",
+  "hydrophobic": true
+}

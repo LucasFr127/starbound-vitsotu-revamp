@@ -1,0 +1,11 @@
+{
+  "author" : "Wyvern",
+  "description" : "",
+  "friendlyName" : "Variety is the Spice of the Universe",
+  "link" : "",
+  "name" : "vitsotu",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "2.0.0",
+  "includes" : ["TileTweaks"]
+}

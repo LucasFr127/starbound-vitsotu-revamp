@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/vsu_asheruption",
+    "value": [[1, "vsu_asheruption"]]
+  },
+  {
+    "op": "add",
+    "path": "/vsu_asheruption-sulphuric",
+    "value": [[1, "vsu_asheruption-sulphuric"]]
+  }
+]

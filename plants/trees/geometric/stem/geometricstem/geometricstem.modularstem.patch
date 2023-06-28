@@ -1,0 +1,20 @@
+[
+  {
+    "op": "add",
+    "path": "/dropConfig/drops/0/-",
+    "value": {
+      "item": "icecrystal",
+      "count": 1
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/dropConfig/sounds/breakTree/1/file",
+    "value": "/sfx/environmental/tree_crystal_breaking.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/dropConfig/sounds/hitGround/1/file",
+    "value": "/sfx/environmental/tree_crystal_hitground.ogg"
+  }
+]

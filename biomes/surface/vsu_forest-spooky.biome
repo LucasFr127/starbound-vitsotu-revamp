@@ -1,0 +1,691 @@
+{
+  "name": "vsu_forest-spooky",
+  "friendlyName": "Spooky Forest",
+  
+  "spawnProfile": {
+    "groups": [
+      {
+        "select": 1,
+        "pool": [
+          [0.1111, "vsu_sproot"]
+        ]
+      },
+      {
+        "select": 1,
+        "pool": [
+          [0.1111, "batong"],
+          [0.1111, "spookit"]
+        ]
+      },
+      {
+        "select": 1,
+        "pool": [
+          [ 0.4, "xenofly" ],
+          [ 0.3, "shadowmoth" ],
+          [ 0.3, "blueback" ]
+        ]
+      },
+      {
+        "select": 1,
+        "pool": "generatedGroundAggroDay"
+      },
+      {
+        "select": 3,
+        "pool": "nightTerrors"
+      },
+      {
+        "select": 2,
+        "pool": "generatedGround"
+      },
+      {
+        "select": 1,
+        "pool": "generatedFlying"
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "darkwormcritter" ],
+          [ 1, "darkballcritter" ],
+          [ 1, "darkoneeyecritter" ],
+          [ 1, "darkthreeeyescritter" ],
+          [ 1, "bigwormcritter" ],
+          [ 1, "skywurmcritter" ],
+          [ 1, "krawlcritter" ],
+          [ 1, "darknessscabcritter" ],
+          [ 1, "dartcritter" ]
+        ]
+      }
+    ],
+    "monsterParameters": {
+      "colors": "volcanic"
+    }
+  },
+
+  "hueShiftOptions": [-180, -135, -90, -66, -45, 0, 45, 90, 135],
+
+  "weather": [[0, ["/weather.config:alien"]]],
+
+  "skyOptions": [
+    // Eerie Enchantment Theme
+    // Deep greens and purples transition to pitch black with a faint blue glow, evoking an eerie, supernatural vibe.
+    {
+      "mainColor": [50, 70, 30],
+      "morningColors": [
+        [50, 0, 70],
+        [25, 0, 50]
+      ],
+      "dayColors": [
+        [40, 60, 20],
+        [30, 50, 10]
+      ],
+      "eveningColors": [
+        [50, 0, 70],
+        [25, 0, 50]
+      ],
+      "nightColors": [
+        [0, 0, 0],
+        [5, 5, 30]
+      ],
+      "morningLightColor": [50, 20, 60],
+      "dayLightColor": [40, 60, 20],
+      "eveningLightColor": [50, 20, 60],
+      "nightLightColor": [5, 5, 30]
+    },
+
+    // Twilight Theme
+    // Dark blues with hints of purple suggest the eerie calmness of twilight in a spooky forest.
+    {
+      "mainColor": [15, 15, 45],
+      "morningColors": [
+        [20, 0, 40],
+        [10, 0, 20]
+      ],
+      "dayColors": [
+        [25, 25, 65],
+        [15, 15, 45]
+      ],
+      "eveningColors": [
+        [20, 0, 40],
+        [10, 0, 20]
+      ],
+      "nightColors": [
+        [5, 5, 15],
+        [0, 0, 0]
+      ],
+      "morningLightColor": [20, 0, 40],
+      "dayLightColor": [25, 25, 65],
+      "eveningLightColor": [20, 0, 40],
+      "nightLightColor": [5, 5, 15]
+    },
+
+    // Deep Forest Theme
+    // Dark greens reflect the depth and density of a spooky forest, increasing the sense of mystery.
+    {
+      "mainColor": [10, 20, 0],
+      "morningColors": [
+        [20, 30, 0],
+        [10, 20, 0]
+      ],
+      "dayColors": [
+        [15, 25, 0],
+        [10, 20, 0]
+      ],
+      "eveningColors": [
+        [20, 30, 0],
+        [10, 20, 0]
+      ],
+      "nightColors": [
+        [0, 10, 0],
+        [0, 0, 0]
+      ],
+      "morningLightColor": [20, 30, 0],
+      "dayLightColor": [15, 25, 0],
+      "eveningLightColor": [20, 30, 0],
+      "nightLightColor": [0, 10, 0]
+    },
+
+    // Full Moon Theme
+    // A spectrum of blues, akin to the spooky forest under a full moon's glow.
+    {
+      "mainColor": [50, 50, 70],
+      "morningColors": [
+        [40, 40, 60],
+        [30, 30, 50]
+      ],
+      "dayColors": [
+        [60, 60, 80],
+        [50, 50, 70]
+      ],
+      "eveningColors": [
+        [40, 40, 60],
+        [30, 30, 50]
+      ],
+      "nightColors": [
+        [20, 20, 40],
+        [10, 10, 30]
+      ],
+      "morningLightColor": [40, 40, 60],
+      "dayLightColor": [60, 60, 80],
+      "eveningLightColor": [40, 40, 60],
+      "nightLightColor": [20, 20, 40]
+    },
+
+    // Foggy Morning Theme
+    // Grey colors suggesting a foggy morning in a spooky forest, increasing the sense of obscurity and suspense.
+    {
+      "mainColor": [70, 70, 70],
+      "morningColors": [
+        [60, 60, 60],
+        [50, 50, 50]
+      ],
+      "dayColors": [
+        [80, 80, 80],
+        [70, 70, 70]
+      ],
+      "eveningColors": [
+        [60, 60, 60],
+        [50, 50, 50]
+      ],
+      "nightColors": [
+        [30, 30, 30],
+        [20, 20, 20]
+      ],
+      "morningLightColor": [60, 60, 60],
+      "dayLightColor": [80, 80, 80],
+      "eveningLightColor": [60, 60, 60],
+      "nightLightColor": [30, 30, 30]
+    },
+
+    // Midnight Blue Theme
+    // Dark and medium blues evoke a sense of deep, impenetrable night in a spooky forest.
+    {
+      "mainColor": [10, 10, 30],
+      "morningColors": [
+        [20, 20, 40],
+        [10, 10, 30]
+      ],
+      "dayColors": [
+        [15, 15, 35],
+        [10, 10, 30]
+      ],
+      "eveningColors": [
+        [20, 20, 40],
+        [10, 10, 30]
+      ],
+      "nightColors": [
+        [5, 5, 25],
+        [0, 0, 20]
+      ],
+      "morningLightColor": [20, 20, 40],
+      "dayLightColor": [15, 15, 35],
+      "eveningLightColor": [20, 20, 40],
+      "nightLightColor": [5, 5, 25]
+    },
+
+    // Dark Sunset Theme
+    // Dark reds simulate the sense of a sunset, but with a sinister touch.
+    {
+      "mainColor": [40, 0, 0],
+      "morningColors": [
+        [50, 10, 0],
+        [40, 0, 0]
+      ],
+      "dayColors": [
+        [45, 5, 0],
+        [40, 0, 0]
+      ],
+      "eveningColors": [
+        [50, 10, 0],
+        [40, 0, 0]
+      ],
+      "nightColors": [
+        [20, 0, 0],
+        [10, 0, 0]
+      ],
+      "morningLightColor": [50, 10, 0],
+      "dayLightColor": [45, 5, 0],
+      "eveningLightColor": [50, 10, 0],
+      "nightLightColor": [20, 0, 0]
+    },
+
+    // Old Witch's Theme
+    // Deep purples create an ambience of old witchcraft and arcane arts.
+    {
+      "mainColor": [30, 0, 30],
+      "morningColors": [
+        [40, 0, 40],
+        [30, 0, 30]
+      ],
+      "dayColors": [
+        [35, 0, 35],
+        [30, 0, 30]
+      ],
+      "eveningColors": [
+        [40, 0, 40],
+        [30, 0, 30]
+      ],
+      "nightColors": [
+        [15, 0, 15],
+        [5, 0, 5]
+      ],
+      "morningLightColor": [40, 0, 40],
+      "dayLightColor": [35, 0, 35],
+      "eveningLightColor": [40, 0, 40],
+      "nightLightColor": [15, 0, 15]
+    },
+
+    // Misty Green Theme
+    // Light greens and greys create the illusion of a misty, humid forest.
+    {
+      "mainColor": [40, 60, 40],
+      "morningColors": [
+        [50, 70, 50],
+        [40, 60, 40]
+      ],
+      "dayColors": [
+        [45, 65, 45],
+        [40, 60, 40]
+      ],
+      "eveningColors": [
+        [50, 70, 50],
+        [40, 60, 40]
+      ],
+      "nightColors": [
+        [20, 40, 20],
+        [10, 30, 10]
+      ],
+      "morningLightColor": [50, 70, 50],
+      "dayLightColor": [45, 65, 45],
+      "eveningLightColor": [50, 70, 50],
+      "nightLightColor": [20, 40, 20]
+    },
+
+    // Blood Red Theme
+    // Deep reds suggest a frightening and foreboding atmosphere, like blood-soaked grounds in a cursed forest.
+    {
+      "mainColor": [60, 0, 0],
+      "morningColors": [
+        [70, 0, 0],
+        [60, 0, 0]
+      ],
+      "dayColors": [
+        [65, 0, 0],
+        [60, 0, 0]
+      ],
+      "eveningColors": [
+        [70, 0, 0],
+        [60, 0, 0]
+      ],
+      "nightColors": [
+        [30, 0, 0],
+        [20, 0, 0]
+      ],
+      "morningLightColor": [70, 0, 0],
+      "dayLightColor": [65, 0, 0],
+      "eveningLightColor": [70, 0, 0],
+      "nightLightColor": [30, 0, 0]
+    }
+  ],
+
+  "mainBlock": "dirt",
+  "subBlocks": ["cobblestone"],
+  "ores": "surface",
+
+  "parallax": "/parallax/surface/vsu_forest-spooky.parallax",
+
+  "ambientNoises": {
+    "day": {
+      "tracks": ["/sfx/environmental/tundra_day.ogg"]
+    },
+    "night": {
+      "tracks": ["/sfx/environmental/tundra_night.ogg"]
+    }
+  },
+
+  "musicTrack": {
+    "day": {
+      "tracks": []
+    },
+    "night": {
+      "tracks": []
+    }
+  },
+
+  "surfacePlaceables": {
+    "grassMod": ["grass"],
+    "grassModDensity": 0.9,
+    "items": [
+      {
+        "mode": "floor",
+        "priority": 3.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:tiyDist",
+
+        "type": "microdungeon",
+        "microdungeons": [
+          "block1platforms",
+          "loops",
+          "spiralspikes",
+          "blocks",
+          "stripeblocks",
+          "blockpile",
+          "reversepyramids",
+          "flats",
+          "spikes",
+          "rods",
+          "wiggles",
+          "rockyshapes",
+          "layeredspire",
+          "blank",
+          "none"
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 10,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:tiyDistPlatform",
+
+        "type": "microdungeon",
+        "microdungeons": ["greenplatforming"]
+      },
+      {
+        "mode": "floor",
+        "priority": 3.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+        "type": "microdungeon",
+        "microdungeons": ["terrainfeatures"]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "fleshmicrodungeons" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "encounterdungeons" ]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:surfaceCapsules",
+
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [
+              [0.35, "capsulesmall"],
+              [0.35, "capsulemed"],
+              [0.35, "capsulebig"]
+            ],
+            "parameters": {}
+          }
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:potsRare",
+
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [
+              [0.35, "flowerred"],
+              [0.35, "flowerblue"],
+              [0.35, "floweryellow"]
+            ],
+            "parameters": {}
+          }
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:surfaceCrops",
+
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [[1, "wildcarrotseed"]],
+            "parameters": { "startingStage": 2 }
+          },
+          {
+            "pool": [[1, "wildavesmingoseed"]],
+            "parameters": { "startingStage": 2 }
+          },
+          {
+            "pool": [[1, "wildbeakseedseed"]],
+            "parameters": { "startingStage": 2 }
+          },
+          {
+            "pool": [[1, "wildchiliseed"]],
+            "parameters": { "startingStage": 2 }
+          },
+          {
+            "pool": [[1, "wildeggshootseed"]],
+            "parameters": { "startingStage": 2 }
+          },
+          {
+            "pool": [[1, "wildfeathercrownseed"]],
+            "parameters": { "startingStage": 2 }
+          },
+          {
+            "pool": [[1, "wildgrapesseed"]],
+            "parameters": { "startingStage": 2 }
+          },
+          {
+            "pool": [[1, "wildpotatoseed"]],
+            "parameters": { "startingStage": 2 }
+          },
+          {
+            "pool": [[1, "wildriceseed"]],
+            "parameters": { "startingStage": 2 }
+          },
+          {
+            "pool": [[1, "wildtomatoseed"]],
+            "parameters": { "startingStage": 2 }
+          }
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:overgroundChests",
+
+        "type": "treasureBox",
+        "treasureBoxSets": ["basicChest"]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:overgroundRareChests",
+
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [[1, "statuspod"]],
+            "parameters": {}
+          }
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundweaponChests",
+
+        "type": "treasureBox",
+        "treasureBoxSets": ["weaponChest"]
+      },
+      {
+        "mode": "floor",
+        "priority": 3.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:denseSmall",
+
+        "type": "grass",
+        "grasses": [
+          "grass",
+          "testflower",
+          "testflower2",
+          "testflower3",
+          "testflower4",
+          "testflower5",
+          "testflower6",
+          "testflower7"
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 2.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:denseMedium",
+
+        "type": "bush",
+        "bushes": [
+          {
+            "name": "testbush",
+            "baseHueShiftMax": 180,
+            "modHueShiftMax": 180
+          }
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:scatteredLarge",
+
+        "type": "tree",
+        "treeFoliageHueShiftMax": 180,
+        "treeStemHueShiftMax": 15,
+        "treeStemList": ["old", "barren", "skeletal", "stripey"],
+        "treeFoliageList": ["aridblank"]
+      }
+    ]
+  },
+
+  "undergroundPlaceables": {
+    "grassMod": ["grass"],
+    "grassModDensity": 0.2,
+
+    "items": [
+      {
+        "mode": "floor",
+        "priority": 10,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:tiyDistPlatform",
+
+        "type": "microdungeon",
+        "microdungeons": ["aridplatforming"]
+      },
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundChests",
+
+        "type": "treasureBox",
+        "treasureBoxSets": ["basicChest"]
+      },
+
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundtechChests",
+
+        "type": "treasureBox",
+        "treasureBoxSets": ["techChest"]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundChests",
+
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [[1, "statuspod"]],
+            "parameters": {}
+          }
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundweaponChests",
+
+        "type": "treasureBox",
+        "treasureBoxSets": ["weaponChest"]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundCapsules",
+
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [
+              [0.35, "capsulesmall"],
+              [0.35, "capsulemed"],
+              [0.35, "capsulebig"]
+            ],
+            "parameters": {}
+          }
+        ]
+      },
+      {
+        "mode": "ceiling",
+        "priority": 2.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:denseMedium",
+
+        "type": "tree",
+        "treeFoliageHueShiftMax": 180,
+        "treeStemHueShiftMax": 180,
+        "treeStemList": ["vine", "vine2", "vine3", "vine4"],
+        "treeFoliageList": ["flowery", "starry", "dreamy"]
+      },
+      {
+        "mode": "floor",
+        "priority": 3.0,
+        "variants": 1,
+        "period": 5,
+        "distribution": "/biomes/distributions.config:scatteredSmall",
+
+        "type": "grass",
+        "grasses": [
+          "testflower",
+          "testflower2",
+          "testflower3",
+          "testflower4",
+          "testflower5",
+          "testflower6",
+          "testflower7"
+        ]
+      }
+    ]
+  }
+}

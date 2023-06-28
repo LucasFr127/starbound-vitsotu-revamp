@@ -1,0 +1,719 @@
+[
+  // visitableTypeDescription - Planets
+  
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_arid",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_arid-tar",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_arid-toxic",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_boreal",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_charred",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_cloudlands",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_cove",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_crystalline",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_dunelagoons",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_floatingislands",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_forest-mushroom",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_forest-rainbow",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_forest-snow",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_forest-spooky",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_forest-tar",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_forest-toxic",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_forest-volcanic",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_frostfire",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_heck",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_icespire",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_jungle-tar",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_jungle-toxic",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_mountainous",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_mountainous-snow",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_mountainous-tar",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_mountainous-toxic",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_savannah-tar",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_savannah-toxic",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_slimeball",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_swamp",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_tarball",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_tropics",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_twilight",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_umbra",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_volcanic-sulphuric",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_wasteland",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  
+  // visitableTypeDescription - Moons
+  
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_moon-crystalline",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_moon-frozen",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_moon-metallic",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_moon-rock",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_moon-toxic",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vsu_moon-volcanic",
+    "value": [
+      "Placeholder1",
+      "Placeholder2",
+      "Placeholder3"
+    ]
+  },
+  
+  // planetTypeNames - Planets
+  
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_arid",
+    "value": "Arid"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_arid-tar",
+    "value": "Tar Arid"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_arid-toxic",
+    "value": "Toxic Arid"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_boreal",
+    "value": "Boreal"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_charred",
+    "value": "Charred"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_cloudlands",
+    "value": "Cloudlands"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_cove",
+    "value": "Cove"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_crystalline",
+    "value": "Crystalline"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_dunelagoons",
+    "value": "Dune Lagoons"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_floatingislands",
+    "value": "Floating Islands"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_forest-mushroom",
+    "value": "Mushroom Forest"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_forest-rainbow",
+    "value": "Rainbow Forest"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_forest-snow",
+    "value": "Snowy Forest"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_forest-spooky",
+    "value": "Spooky Forest"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_forest-tar",
+    "value": "Tar Forest"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_forest-toxic",
+    "value": "Toxic Forest"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_forest-volcanic",
+    "value": "Volcanic Forest"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_frostfire",
+    "value": "Frostfire"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_heck",
+    "value": "Heck"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_icespire",
+    "value": "Icespire"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_jungle-tar",
+    "value": "Tar Jungle"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_jungle-toxic",
+    "value": "Toxic Jungle"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_mountainous",
+    "value": "Rocky Mountains"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_mountainous-snow",
+    "value": "Snowy Mountains"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_mountainous-tar",
+    "value": "Tar Mountains"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_mountainous-toxic",
+    "value": "Toxic Mountains"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_savannah-tar",
+    "value": "Tar Savannah"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_savannah-toxic",
+    "value": "Toxic Savannah"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_slimeball",
+    "value": "Slimeball"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_swamp",
+    "value": "Swamp"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_tarball",
+    "value": "Tarball"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_tropics",
+    "value": "Tropics"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_twilight",
+    "value": "Twilight"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_umbra",
+    "value": "Umbra"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_volcanic-sulphuric",
+    "value": "Sulphuric Volcanic"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_wasteland",
+    "value": "Wasteland"
+  },
+  
+  // planetTypeNames - Moons
+  
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_moon-crystalline",
+    "value": "Crystalline Lunar"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_moon-frozen",
+    "value": "Frozen Lunar"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_moon-metallic",
+    "value": "Metallic Lunar"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_moon-rock",
+    "value": "Rocky Lunar"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_moon-toxic",
+    "value": "Toxic Lunar"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/vsu_moon-volcanic",
+    "value": "Volcanic Lunar"
+  },
+  
+  // planetTypeColors
+  
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_crystalline",
+    "value": [217, 82, 242]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_floatingislands",
+    "value": [250, 218, 94]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_forest-spooky",
+    "value": [130, 0, 20]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_forest-tar",
+    "value": [100, 79, 145]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_frostfire",
+    "value": [94, 186, 201]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_heck",
+    "value": [173, 46, 61]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_icespire",
+    "value": [255, 255, 255]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_jungle-tar",
+    "value": [100, 79, 145]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_jungle-toxic",
+    "value": [255, 255, 255]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_mountainous",
+    "value": [140, 149, 148]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_mountainous-snow",
+    "value": [227, 235, 245]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_mountainous-tar",
+    "value": [100, 79, 145]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_mountainous-toxic",
+    "value": [155, 186, 61]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_savannah-tar",
+    "value": [100, 79, 145]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_savannah-toxic",
+    "value": [255, 255, 255]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_slimeball",
+    "value": [30, 134, 103]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_swamp",
+    "value": [157, 104, 74]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_tarball",
+    "value": [100, 79, 145]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_tropics",
+    "value": [88, 149, 7]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_twilight",
+    "value": [255, 255, 255]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_umbra",
+    "value": [75, 59, 109]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_volcanic-sulphuric",
+    "value": [121, 136, 246]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vsu_wasteland",
+    "value": [237, 126, 84]
+  }
+]

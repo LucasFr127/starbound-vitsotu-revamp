@@ -1,0 +1,9 @@
+{
+  "modId" : 704,
+  "modName" : "vsu_darkgrass",
+  "frames" : "vsu_darkgrass.png",
+  "variants" : 5,
+  "Description" : "Strange darkness...",
+  "footstepSound" : "/sfx/blocks/footstep_grass.ogg",
+  "health" : 0
+}

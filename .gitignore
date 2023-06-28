@@ -1,0 +1,24 @@
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Auxiliary files
+*.pdf
+*.pdn
+*.txt
+
+# Auxiliary folders
+_assets
+_attic
+_docs
+_imgs
+**/+
+biomes/surface/weather
+
+# Vanilla tilesets
+tilesets/packed

@@ -1,0 +1,9 @@
+{
+  "modId" : 707,
+  "modName" : "vsu_redsand",
+  "frames" : "vsu_redsand.png",
+  "variants" : 5,
+  "Description" : "Scattered sand.",
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
+  "health" : 0
+}

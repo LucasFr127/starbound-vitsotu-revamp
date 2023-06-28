@@ -1,0 +1,25 @@
+{
+  "materialId" : 2575,
+  "materialName" : "vsu_brainsblock",
+  "particleColor" : [112, 72, 39, 255],
+  "itemDrop" : "vsu_brainsblock",
+  "description" : "Pulsating brain matter.. I wonder if it's thinking.",
+  "shortdescription" : "Brains",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "soil" : true,
+  "health" : 4,
+  "category" : "materials",
+  "glitchDescription" : "Alarmed. Is there brain activity within this material?",
+  "floranDescription" : "Floran want to ssstab sssquishy brain.",
+  "novakidDescription" : "Some fleshy brainstuff.",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "brainsblock.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 1777
+  }
+}

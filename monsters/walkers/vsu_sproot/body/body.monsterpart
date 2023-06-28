@@ -1,0 +1,9 @@
+{
+  "name" : "vsu_sproot",
+  "category" : "vsu_sproot",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "vsu_sproot.png"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "name" : "vsu_duneLagoonsSurface",
+
+  //ledges
+  "type" : "displacement",
+  "xType" : "perlin",
+  "xOctaves" : 3,
+  "xFreq" : 0.07,
+  "xAmp" : 6,
+  "xXInfluence" : 0.3,
+  "xYInfluence" : 0.5,
+  "yType" : "perlin",
+  "yOctaves" : 1,
+  "yFreq" : 0.1,
+  "yAmp" : 1,
+  "yYInfluence" : 0,
+
+  "source" : {
+    "type" : "mix",
+
+    "mixSource" : {
+      "type" : "perlin",
+      "function" : "perlin",
+      "octaves" : 2,
+      "freq" : 0.004,
+      "amp" : 8,
+      "bias" : 2.0,
+      "xInfluence" : 1,
+      "yInfluence" : 0.1
+    },
+
+    "aSource" : {
+      //dunes
+      "type" : "displacement",
+      "xType" : "perlin",
+      "xOctaves" : 1,
+      "xFreq" : 0.007,
+      "xAmp" : 0,
+      "yType" : "perlin",
+      "yOctaves" : 3,
+      "yFreq" : 0.009,
+      "yAmp" : 15,
+      "yBias" : -30,
+      "yClamp" : [-60, 10],
+      "yClampSmoothing" : 15,
+      "yYInfluence" : 0.1,
+
+      "source" : {
+        "type" : "flatSurface",
+
+        "adjustment" : 50
+      }
+    },
+
+    "bSource" : {
+      //pools
+      "type" : "displacement",
+      "xType" : "perlin",
+      "xOctaves" : 1,
+      "xFreq" : 0.01,
+      "xAmp" : 0,
+      "yType" : "perlin",
+      "yOctaves" : 2,
+      "yFreq" : 0.045,
+      "yAmp" : 24,
+      "yBias" : 1,
+      "yClamp" : [-1, 8],
+      "yClampSmoothing" : 3,
+      "yYInfluence" : 0.2,
+
+      "source" : {
+        // hills
+        "type" : "displacement",
+        "xType" : "perlin",
+        "xOctaves" : 1,
+        "xFreq" : 0.07,
+        "xAmp" : 2,
+        "xXInfluence" : 0.3,
+        "xYInfluence" : 0.5,
+        "yType" : "perlin",
+        "yOctaves" : 3,
+        "yFreq" : 0.005,
+        "yAmp" : 12,
+        "yYInfluence" : 0,
+
+        "source" : {
+          "type" : "flatSurface",
+
+          "adjustment" : -3
+        }
+      }
+    }
+  }
+}

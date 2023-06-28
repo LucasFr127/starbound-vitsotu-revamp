@@ -1,0 +1,23 @@
+{
+  "materialId" : 3757,
+  "materialName" : "vsu_wastestone",
+  "particleColor" : [201, 114, 57, 255],
+  "itemDrop" : "vsu_wastestone",
+  "description" : "Tough wastestone.",
+  "shortdescription" : "Wastestone Block",
+  "glitchdescription" : "Statement. Wastestone.",
+  "florandescription" : "Wastessstone.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 4,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vsu_wastestone.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 1720
+  }
+}

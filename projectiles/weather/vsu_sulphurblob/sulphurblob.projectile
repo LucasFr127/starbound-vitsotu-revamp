@@ -1,0 +1,26 @@
+{
+  "projectileName": "vsu_sulphurblob",
+  "image": "sulphurblob.png",
+  "animationCycle": 0.5,
+  "frameNumber": 3,
+  "damageKindImage": "icon.png",
+  "pointLight": false,
+  "actionOnReap": [
+    {
+      "action": "config",
+      "file": "/projectiles/explosions/vsu_sulphurexplosion/sulphurexplosion.config"
+    },
+    {
+      "action": "liquid",
+      "liquid": "vsu_flamingsulphur",
+      "quantity": 2
+    }
+  ],
+  "power": 50.0,
+  "lightColor": [121, 136, 246],
+  "emitters": ["fireflames"],
+  "damagePoly" : [ [-8, 0], [2, 3], [8, 0], [2, -3] ],
+  "damageKind": "fire",
+  "damageType": "ignoresdef",
+  "hydrophobic": true
+}

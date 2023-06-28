@@ -1,0 +1,46 @@
+{
+  "name": "vsu_geometric",
+  "friendlyName": "Geometric Forest",
+
+  "mainBlock": "snow",
+  "subBlocks": ["ice", "slush"],
+  "ores": "surface",
+
+  "surfacePlaceables": {
+    "grassMod": ["snow"],
+    "grassModDensity": 0.5,
+
+    "items": [
+      {
+        "mode": "floor",
+        "priority": 3.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:scatteredSmall",
+
+        "type": "grass",
+        "grasses": ["geometricflower"]
+      },
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:minibiomeChests",
+
+        "type": "treasureBox",
+        "treasureBoxSets": ["iceChest"]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:denseLarge",
+
+        "type": "tree",
+        "treeFoliageHueShiftMax": 0,
+        "treeStemHueShiftMax": 15,
+        "treeStemList": ["geometricstem"],
+        "treeFoliageList": ["geometricfoliage"]
+      }
+    ]
+  }
+}

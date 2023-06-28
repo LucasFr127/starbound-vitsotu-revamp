@@ -1,0 +1,50 @@
+[
+  {
+    "op": "add",
+    "path": "/vsu_heckChestTreasure",
+    "value": [
+      [
+        1,
+        {
+          "fill": [{ "pool": "valuableTreasure" }],
+          "pool": [
+            { "weight": 0.5, "pool": "basicTreasure" },
+            { "weight": 0.5, "pool": "vsu_heckTreasure" }
+          ],
+          "poolRounds": [
+            [0.05, 1],
+            [0.4, 2],
+            [0.3, 3],
+            [0.15, 4],
+            [0.1, 5]
+          ],
+          "allowDuplication": false
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/vsu_heckTreasure",
+    "value": [
+      [
+        1,
+        {
+          "pool": [
+            { "weight": 1.0, "item": ["fleshstrand", 10] },
+            { "weight": 1.0, "item": ["bone", 15] },
+            { "weight": 0.5, "item": ["throwingbones", 5] },
+            { "weight": 0.1, "item": ["bonematerial", 10] },
+            { "weight": 0.3, "item": ["batwingsback"] },
+            { "weight": 0.3, "item": ["bonewingsback"] },
+            { "weight": 0.3, "item": ["goathead"] },
+            { "weight": 0.3, "item": ["demonwingsback"] },
+            { "weight": 0.3, "item": ["demonhornshead"] },
+            { "weight": 0.3, "item": ["strapchest"] },
+            { "weight": 0.3, "item": ["straplegs"] }
+          ]
+        }
+      ]
+    ]
+  }
+]

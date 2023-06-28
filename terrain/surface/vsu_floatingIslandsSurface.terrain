@@ -1,0 +1,115 @@
+{
+  "name": "vsu_floatingIslandsSurface",
+
+  "type": "displacement",
+  "xType": "perlin",
+  "xOctaves": 3,
+  "xFreq": 0.08,
+  "xAmp": 12,
+  "xXInfluence": 0.5,
+  "xYInfluence": 0.5,
+  "yType": "perlin",
+  "yOctaves": 1,
+  "yFreq": 0.1,
+  "yAmp": 2,
+  "yYInfluence": 0,
+
+  "source": {
+    "type": "minmax",
+
+    "sources": [
+      {
+        "type": "islandSurface",
+
+        "islandElevation": 15,
+
+        "islandDecision": {
+          "type": "perlin",
+          "octaves": 2,
+          "frequency": 0.007, //0.005
+          "amplitude": 1.1,
+          "bias": -0.05
+        },
+        "islandTaperPoint": 0.2,
+
+        "islandHeight": {
+          "type": "perlin",
+          "octaves": 2,
+          "frequency": 0.052, //0.035
+          "amplitude": 26,
+          "bias": 30
+        },
+
+        "islandDepth": {
+          "type": "perlin",
+          "octaves": 2,
+          "frequency": 0.03, //0.02
+          "amplitude": 20,
+          "bias": 50
+        }
+      },
+
+      {
+        "type": "islandSurface",
+
+        "islandElevation": 150,
+
+        "islandDecision": {
+          "type": "perlin",
+          "octaves": 2,
+          "frequency": 0.006, //0.005
+          "amplitude": 1.1,
+          "bias": -0.1
+        },
+        "islandTaperPoint": 0.2,
+
+        "islandHeight": {
+          "type": "perlin",
+          "octaves": 2,
+          "frequency": 0.044, //0.035
+          "amplitude": 26,
+          "bias": 30
+        },
+
+        "islandDepth": {
+          "type": "perlin",
+          "octaves": 2,
+          "frequency": 0.025, //0.02
+          "amplitude": 20,
+          "bias": 50
+        }
+      },
+      
+      {
+        "type": "islandSurface",
+
+        "islandElevation": 285,
+
+        "islandDecision": {
+          "type": "perlin",
+          "octaves": 2,
+          "frequency": 0.005,
+          "amplitude": 1.1,
+          "bias": -0.2
+        },
+        "islandTaperPoint": 0.2,
+
+        "islandHeight": {
+          "type": "perlin",
+          "octaves": 2,
+          "frequency": 0.035,
+          "amplitude": 26,
+          "bias": 30
+        },
+
+        "islandDepth": {
+          "type": "perlin",
+          "octaves": 2,
+          "frequency": 0.02,
+          "amplitude": 20,
+          "bias": 50
+        }
+      }
+    ]
+  }
+}

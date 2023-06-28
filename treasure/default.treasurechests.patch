@@ -1,0 +1,13 @@
+[
+  {
+    "op": "add",
+    "path": "/vsu_heckChest",
+    "value": [
+      {
+        "containers": ["vsu_heckchest", "vsu_heckaltar"],
+        "treasurePool": "vsu_heckChestTreasure",
+        "minimumLevel": 0
+      }
+    ]
+  }
+]

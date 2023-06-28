@@ -1,0 +1,56 @@
+{
+  "name": "vsu_orb",
+  "friendlyName": "Orb Field",
+
+  "mainBlock": "snow",
+  "subBlocks": ["ice", "slush"],
+  "ores": "surface",
+
+  "surfacePlaceables": {
+    "grassMod": ["snow"],
+    "grassModDensity": 0.4,
+
+    "items": [
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:minibiomeChests",
+
+        "type": "treasureBox",
+        "treasureBoxSets": ["iceChest"]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:denseLarge",
+
+        "type": "tree",
+        "treeFoliageHueShiftMax": 0,
+        "treeStemHueShiftMax": 15,
+        "treeStemList": ["icespherestem"],
+        "treeFoliageList": ["icespherefoliage"]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:scatteredSmall",
+
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [
+              [0.35, "icesphere1"],
+              [0.35, "icesphere2"],
+              [0.35, "icesphere3"],
+              [0.35, "icesphere4"]
+            ],
+            "parameters": {}
+          }
+        ]
+      }
+    ]
+  }
+}

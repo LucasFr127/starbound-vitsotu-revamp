@@ -1,0 +1,10 @@
+{
+  "modId" : 706,
+  "modName" : "vsu_rainbowrock",
+  "frames" : "vsu_rainbowrock.png",
+  "variants" : 8,
+  "itemDrop" : "rainbowrock",
+  "Description" : "Shiny rainbow rock.",
+  "health" : 6,
+  "breaksWithTile" : true
+}

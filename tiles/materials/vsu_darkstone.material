@@ -1,0 +1,23 @@
+{
+  "materialId" : 3064,
+  "materialName" : "vsu_darkstone",
+  "particleColor" : [0, 0, 0, 255],
+  "itemDrop" : "vsu_darkstone",
+  "shortdescription" : "Block of Darkstone",
+  "description" : "A stone of solid darkness.",
+  "glitchDescription" : "Statement. Hard darkness.",
+  "floranDescription" : "Sssstone of darknessss.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 1.0,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vsu_darkstone.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 1720
+  }
+}

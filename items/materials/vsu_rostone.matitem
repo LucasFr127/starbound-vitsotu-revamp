@@ -1,0 +1,13 @@
+{
+  "itemName" : "vsu_rostone",
+  "rarity" : "Common",
+  "inventoryIcon" : "vsu_rostone.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Rough, unrefined rostone.",
+  "shortdescription" : "Unrefined Rostone",
+  
+  "glitchDescription" : "Statement. Rostone.",
+  "florandescription" : "Sssstonne.",
+  
+  "materialId" : 3070
+}

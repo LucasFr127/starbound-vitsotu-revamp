@@ -1,0 +1,1205 @@
+[
+  /*
+  to-do:
+  - tropics and swamp (ocean->temperate)
+  - dunelagoons
+  - slimeball
+  - living
+  */
+
+  // terrestrialHorizonGraphics - Planets
+
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_arid",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_arid_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_arid-tar",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_arid-tar_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_arid-toxic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_arid-toxic_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_boreal",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_boreal_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_charred",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_charred_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_cloudlands",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_cloudlands_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_cove",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_cove_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_crystalline",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_crystalline_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_dunelagoons",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/ocean_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_floatingislands",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_floatingislands_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_forest-mushroom",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_forest-mushroom_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_forest-rainbow",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_forest-rainbow_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_forest-snow",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_forest-snow_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_forest-spooky",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_forest-spooky_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_forest-tar",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_forest-tar_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_forest-toxic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_forest-toxic_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_forest-volcanic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_forest-volcanic_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_frostfire",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_frostfire_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_heck",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_heck_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_jungle-tar",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_jungle-tar_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_jungle-toxic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_jungle-toxic_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_mountainous",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_mountainous_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_mountainous-snow",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_mountainous-snow_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_mountainous-tar",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_mountainous-tar_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_mountainous-toxic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_mountainous-toxic_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_savannah-tar",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_savannah-tar_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_savannah-toxic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_savannah-toxic_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_icespire",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_icespire_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  /*{
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_slimeball",
+    "value": {
+      "baseImages":
+        "/celestial/system/terrestrial/horizon/textures/vsu_slimeball_<selector>.png",
+      "maskTextures":
+        "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },*/
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_swamp",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_swamp_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_tarball",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_tarball_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_tropics",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_tropics_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_twilight",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_twilight_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_umbra",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_umbra_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_volcanic-sulphuric",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_volcanic-sulphuric_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_wasteland",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/vsu_wasteland_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [3, 3]
+    }
+  },
+
+  // terrestrialHorizonGraphics - Moons
+
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_moon-crystalline",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/moon_<selector>.png",
+      "maskPerPlanetRange": [0, 0]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_moon-frozen",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/moon_<selector>.png",
+      "maskPerPlanetRange": [0, 0]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_moon-metallic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/moon_<selector>.png",
+      "maskPerPlanetRange": [0, 0]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_moon-rock",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/moon_<selector>.png",
+      "maskPerPlanetRange": [0, 0]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_moon-toxic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/moon_<selector>.png",
+      "maskPerPlanetRange": [0, 0]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/vsu_moon-volcanic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/moon_<selector>.png",
+      "maskPerPlanetRange": [0, 0]
+    }
+  },
+
+  // terrestrialGraphics - Planets
+
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_arid",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_arid/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [1, 50]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_arid-tar",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_arid-tar/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [1, 50]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_arid-toxic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_arid-toxic/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [1, 50]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_boreal",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_boreal/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_charred",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_charred/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [1, 50]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_cloudlands",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_cloudlands/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_cove",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_cove/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
+      "dynamicsRange": [1, 20]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_crystalline",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_crystalline/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_dunelagoons",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/desert/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
+      "dynamicsRange": [1, 20]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_floatingislands",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_floatingislands/maskie<num>.png",
+      "liquidImages": "/celestial/system/terrestrial/vsu_floatingliquids/<liquid>.png",
+      "shadowImages": "/celestial/system/terrestrial/vsu_floatingshadows/<num>.png",
+      "shadowNumber": [1, 9],
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/vsu_floating/<num>.png",
+      "dynamicsRange": [1, 10]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_forest-mushroom",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/forest/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_forest-rainbow",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_forest-rainbow/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_forest-snow",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_forest-snow/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_forest-spooky",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_forest-spooky/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_forest-tar",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_forest-tar/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_forest-toxic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_forest-toxic/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_forest-volcanic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_forest-volcanic/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_frostfire",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_frostfire/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_heck",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_heck/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_icespire",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/snow/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_jungle-tar",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_jungle-tar/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_jungle-toxic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_jungle-toxic/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_living",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_living/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_mountainous",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_mountainous/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_mountainous-snow",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_mountainous-snow/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_mountainous-tar",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_mountainous-tar/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_mountainous-toxic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_mountainous-toxic/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_savannah-tar",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_savannah-tar/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [1, 50]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_savannah-toxic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_savannah-toxic/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [1, 50]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_slimeball",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_slimeball/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_swamp",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_swamp/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_tarball",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_tarball/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_tropics",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_tropics/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_twilight",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_twilight/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_umbra",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_umbra/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_volcanic-sulphuric",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_volcanic-sulphuric/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange": [1, 30]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_wasteland",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/vsu_wasteland/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [1, 50]
+    }
+  },
+
+  // terrestrialGraphics - Moons
+
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_moon-crystalline",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/moon/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [1, 50]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_moon-frozen",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/moon/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [1, 50]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_moon-metallic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/moon/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [1, 50]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_moon-rock",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/moon/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [1, 50]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_moon-toxic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/moon/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [1, 50]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/vsu_moon-volcanic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/moon/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [1, 50]
+    }
+  },
+
+  // planetaryTypes - Tier 1
+
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier1/baseParameters/terrestrialType/-",
+    "value": "vsu_dunelagoons"
+  },
+
+  // planetaryTypes - Tier 2
+
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
+    "value": "vsu_arid"
+  },
+  /*{
+    "op": "add",
+    "path": "/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
+    "value": "vsu_arid-tar"
+  },*/
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
+    "value": "vsu_charred"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
+    "value": "vsu_forest-rainbow"
+  },
+  /*{
+    "op": "add",
+    "path": "/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
+    "value": "vsu_forest-tar"
+  },*/
+
+  // planetaryTypes - Tier 3
+
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "vsu_boreal"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "vsu_cove"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "vsu_forest-snow"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "vsu_mountainous"
+  },
+  /*{
+    "op": "add",
+    "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "vsu_mountainous-tar"
+  },*/
+  /*{
+    "op": "add",
+    "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "vsu_savannah-tar"
+  },*/
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "vsu_tarball"
+  },
+
+  // planetaryTypes - Tier 4
+
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "vsu_arid-toxic"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "vsu_forest-toxic"
+  },
+  /*{
+    "op": "add",
+    "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "vsu_jungle-tar"
+  },*/
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "vsu_jungle-toxic"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "vsu_mountainous-toxic"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "vsu_savannah-toxic"
+  },
+  /*{
+    "op": "add",
+    "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "vsu_slimeball"
+  },*/
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "vsu_swamp"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "vsu_tropics"
+  },
+
+  // planetaryTypes - Tier 5
+
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "vsu_cloudlands"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "vsu_crystalline"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "vsu_forest-mushroom"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "vsu_forest-spooky"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "vsu_icespire"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "vsu_mountainous-snow"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "vsu_twilight"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "vsu_umbra"
+  },
+
+  // planetaryTypes - Tier 6
+
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "vsu_floatingislands"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "vsu_forest-volcanic"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "vsu_frostfire"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "vsu_heck"
+  },
+  /*{
+    "op": "add",
+    "path": "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "vsu_living"
+  },*/
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "vsu_volcanic-sulphuric"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "vsu_wasteland"
+  },
+
+  // satelliteTypes - Tier 1
+
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier1/baseParameters/terrestrialType/-",
+    "value": "vsu_dunelagoons"
+  },
+
+  // satelliteTypes - Tier 2
+
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
+    "value": "vsu_arid"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
+    "value": "vsu_arid-tar"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
+    "value": "vsu_charred"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
+    "value": "vsu_forest-rainbow"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
+    "value": "vsu_forest-tar"
+  },
+
+  // satelliteTypes - Tier 3
+
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "vsu_boreal"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "vsu_cove"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "vsu_forest-snow"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "vsu_mountainous"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "vsu_mountainous-tar"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "vsu_savannah-tar"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "vsu_tarball"
+  },
+
+  // satelliteTypes - Tier 4
+
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "vsu_jungle-tar"
+  },
+  /*{
+    "op": "add",
+    "path": "/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "vsu_slimeball"
+  },*/
+
+  // satelliteTypes - Tier 5
+
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "vsu_crystalline"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "vsu_icespire"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "vsu_mountainous-snow"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "vsu_twilight"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "vsu_umbra"
+  },
+
+  // satelliteTypes - Tier 6
+
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "vsu_forest-volcanic"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "vsu_frostfire"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "vsu_heck"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "vsu_mountainous-toxic"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "vsu_volcanic-sulphuric"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "vsu_wasteland"
+  },
+
+  // satelliteTypes - Moons
+
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Moon/baseParameters/terrestrialType/-",
+    "value": "vsu_moon-crystalline"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Moon/baseParameters/terrestrialType/-",
+    "value": "vsu_moon-frozen"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Moon/baseParameters/terrestrialType/-",
+    "value": "vsu_moon-metallic"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Moon/baseParameters/terrestrialType/-",
+    "value": "vsu_moon-rock"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Moon/baseParameters/terrestrialType/-",
+    "value": "vsu_moon-toxic"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Moon/baseParameters/terrestrialType/-",
+    "value": "vsu_moon-volcanic"
+  }
+]

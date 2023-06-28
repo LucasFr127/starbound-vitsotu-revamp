@@ -1,0 +1,84 @@
+{
+  "verticalOrigin" : -15,
+  
+  "layers" : [
+    {
+      "kind" : "divider/rock",
+      "offset" : [0, 395],
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 1.199
+    },
+    {
+      "kind" : "tile/rock",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "repeatY" : true,
+      "tileLimitTop" : 325,
+      "parallax" : 1.2
+    },
+    
+    {
+      "kind" : "vsu_mountainousback",
+      "offset" : [0, 300],
+      "parallax" : 9,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "directives" : "?brightness=20?saturation=-10",
+      "fadePercent" : 0.30
+    },
+    {
+      "kind" : "glitters",
+      "baseCount" : 7,
+      "offset" : [0, 35],
+      "parallax" : [20, 20],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "directives" : ""
+    },
+    {
+      "kind" : "vsu_rockyback",
+      "baseCount" : 3,
+      "modCount" : 1,
+      "offset" : [0, 430],
+      "parallax" : 7,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "directives" : "",
+      "fadePercent" : 0.20
+    },
+    {
+      "kind" : "vsu_rockyback",
+      "baseCount" : 3,
+      "modCount" : 1,
+      "offset" : [0, 450],
+      "parallax" : 5,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "directives" : "",
+      "fadePercent" : 0.10
+    },
+    {
+      "kind" : "vsu_rockyfront",
+      "offset" : [0, 500],
+      "parallax" : 2,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "directives" : ""
+    },
+    {
+      "kind" : "vsu_rockyfront",
+      "offset" : [0, 400],
+      "parallax" : 2.4,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "directives" : ""
+    }
+  ]
+}

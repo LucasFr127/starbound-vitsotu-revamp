@@ -1,0 +1,26 @@
+{
+  "margin" : 0,
+  "name" : "vsu_liquids",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 2,
+  "tileheight" : 16,
+  "tileproperties" : {
+    "0" : {
+      "liquid" : "vsu_pulsatingslime"
+    },
+    "1" : {
+      "liquid" : "vsu_flamingsulphur"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "..\/..\/tiled\/vitsotu\/liquids\/pulsatingslime.png"
+    },
+    "1" : {
+      "image" : "..\/..\/tiled\/vitsotu\/liquids\/flamingsulphur.png"
+    }
+  },
+  "tilewidth" : 16
+}

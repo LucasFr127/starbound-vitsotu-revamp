@@ -1,0 +1,22 @@
+{
+  "materialId" : 3069,
+  "materialName" : "vsu_marestone",
+  "particleColor" : [146, 156, 170, 255],
+  "itemDrop" : "vsu_marestone",
+  "description" : "Rough, unrefined marestone.",
+  "shortdescription" : "Marestone Block",
+  "glitchDescription" : "Statement. Marestone.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 10,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vsu_marestone.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 1720
+  }
+}

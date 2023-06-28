@@ -1,0 +1,163 @@
+{
+  "name": "vsu_mountainousSurface",
+
+  //jaggy ledges
+  "type": "displacement",
+  "xType": "perlin",
+  "xOctaves": 3,
+  "xFreq": 0.07,
+  "xAmp": 17,
+  "xXInfluence": 0.3,
+  "xYInfluence": 0.5,
+  "yType": "perlin",
+  "yOctaves": 1,
+  "yFreq": 0.1,
+  "yAmp": 3,
+  "yYInfluence": 0,
+
+  "source": {
+    "type": "mix",
+
+    "mixSource": {
+      "type": "perlin",
+      "function": "perlin",
+      "octaves": 2,
+      "freq": 0.0065,
+      "amp": 8,
+      "bias": -1,
+      "xInfluence": 1,
+      "yInfluence": 0.1
+    },
+
+    "aSource": {
+      //big old mountains
+      "type": "displacement",
+      "xType": "perlin",
+      "xOctaves": 1,
+      "xFreq": 0.008,
+      "xAmp": 0,
+      "yType": "perlin",
+      "yOctaves": 3,
+      "yFreq": 0.0085,
+      "yAmp": 120,
+      "yBias": -30,
+      "yClamp": [-100, 20],
+      "yClampSmoothing": 10,
+      "yYInfluence": 0.1,
+
+      "source": {
+        "type": "flatSurface",
+
+        "adjustment": 80
+      }
+    },
+
+    "bSource": {
+      "type": "mix",
+
+      "mixSource": {
+        "type": "perlin",
+        "function": "perlin",
+        "octaves": 2,
+        "freq": 0.0105,
+        "amp": 9,
+        "bias": 2.3,
+        "xInfluence": 1,
+        "yInfluence": 0.1
+      },
+
+      "aSource": {
+        //small mountains
+        "type": "displacement",
+        "xType": "perlin",
+        "xOctaves": 1,
+        "xFreq": 0.008,
+        "xAmp": 0,
+        "yType": "perlin",
+        "yOctaves": 2,
+        "yFreq": 0.02,
+        "yAmp": 65,
+        "yYInfluence": 0.1,
+
+        "source": {
+          "type": "flatSurface",
+
+          "adjustment": 65
+        }
+      },
+
+      "bSource": {
+        "type": "mix",
+
+        "mixSource": {
+          "type": "perlin",
+          "function": "perlin",
+          "octaves": 2,
+          "freq": 0.0045,
+          "amp": 7,
+          "bias": 1.0,
+          "xInfluence": 1,
+          "yInfluence": 0.1
+        },
+
+        "aSource": {
+          //slightly shakey mountains
+          "type": "displacement",
+          "xType": "perlin",
+          "xOctaves": 1,
+          "xFreq": 0.02,
+          "xAmp": 0,
+          "yType": "perlin",
+          "yOctaves": 2,
+          "yFreq": 0.007,
+          "yAmp": 95,
+          "yBias": -10,
+          "yClamp": [-60, 20],
+          "yClampSmoothing": 10,
+          "yYInfluence": 0.1,
+
+          "source": {
+            "type": "flatSurface",
+
+            "adjustment": 65
+          }
+        },
+
+        "bSource": {
+          //low hills
+          "type": "displacement",
+          "xType": "perlin",
+          "xOctaves": 2,
+          "xFreq": 0.01,
+          "xAmp": 0,
+          "yType": "perlin",
+          "yOctaves": 1,
+          "yFreq": 0.012,
+          "yAmp": 55,
+          "yClamp": [-60, 15],
+          "yClampSmoothing": 5,
+          "yYInfluence": 0.2,
+
+          "source": {
+            //slower, lower hills
+            "type": "displacement",
+            "xType": "perlin",
+            "xOctaves": 2,
+            "xFreq": 0.01,
+            "xAmp": 0,
+            "yType": "perlin",
+            "yOctaves": 1,
+            "yFreq": 0.005,
+            "yAmp": 55,
+
+            "source": {
+              "type": "flatSurface",
+
+              "adjustment": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}

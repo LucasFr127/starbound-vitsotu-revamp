@@ -1,0 +1,10 @@
+{
+  "itemName" : "vsu_liquidflamingsulphur",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "vsu_liquidflamingsulphuricon.png",
+  "shortdescription" : "Flaming Sulphurite",
+  "description" : "A measure of blisteringly hot, azure lava.",
+
+  "liquid" : "vsu_flamingsulphur"
+}

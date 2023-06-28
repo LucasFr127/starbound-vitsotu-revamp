@@ -1,0 +1,10 @@
+{
+  "itemName" : "vsu_liquidpulsatingslime",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "vsu_liquidpulsatingslimeicon.png",
+  "shortdescription" : "Pulsating Slime",
+  "description" : "A measure of vital, pulsating alien blood.",
+
+  "liquid" : "vsu_pulsatingslime"
+}

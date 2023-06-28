@@ -1,0 +1,22 @@
+{
+  "materialId" : 3070,
+  "materialName" : "vsu_rostone",
+  "particleColor" : [146, 156, 170, 255],
+  "itemDrop" : "vsu_rostone",
+  "description" : "Rough, unrefined rostone.",
+  "shortdescription" : "Rostone Block",
+  "glitchDescription" : "Statement. Rostone.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 10,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vsu_rostone.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 1720
+  }
+}

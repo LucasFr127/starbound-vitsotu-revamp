@@ -1,0 +1,20 @@
+[
+  {
+    "op": "add",
+    "path": "/parallax",
+    "value": {
+      "definitions": {
+        "treeback": {
+          "baseCount": 1
+        },
+        "treefront": {
+          "baseCount": 1
+        }
+      }
+    }
+  },
+  {
+    "op": "remove",
+    "path": "/dropConfig/particles"
+  }
+]
