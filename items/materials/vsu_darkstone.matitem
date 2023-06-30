@@ -2,7 +2,7 @@
   "itemName" : "vsu_darkstone",
   "rarity" : "Common",
   "inventoryIcon" : "vsu_darkstone.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "category" : "block",
   "shortdescription" : "Block of Darkstone",
   "description" : "A stone of solid darkness found in the Umbra.",
   
