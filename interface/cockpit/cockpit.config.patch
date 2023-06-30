@@ -330,7 +330,7 @@
   
   {
     "op": "add",
-    "path": "/visitableTypeDescription/vsu_moon-crystalline",
+    "path": "/visitableTypeDescription/vsu_moon-crystal",
     "value": [
       "Placeholder1",
       "Placeholder2",
@@ -570,8 +570,8 @@
   
   {
     "op": "add",
-    "path": "/planetTypeNames/vsu_moon-crystalline",
-    "value": "Crystalline Lunar"
+    "path": "/planetTypeNames/vsu_moon-crystal",
+    "value": "Crystal Lunar"
   },
   {
     "op": "add",

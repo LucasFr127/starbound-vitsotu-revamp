@@ -376,7 +376,7 @@
 
   {
     "op": "add",
-    "path": "/terrestrialHorizonGraphics/vsu_moon-crystalline",
+    "path": "/terrestrialHorizonGraphics/vsu_moon-crystal",
     "value": {
       "baseImages": "/celestial/system/terrestrial/horizon/textures/moon_<selector>.png",
       "maskPerPlanetRange": [0, 0]
@@ -766,7 +766,7 @@
 
   {
     "op": "add",
-    "path": "/terrestrialGraphics/vsu_moon-crystalline",
+    "path": "/terrestrialGraphics/vsu_moon-crystal",
     "value": {
       "baseImages": "/celestial/system/terrestrial/biomes/moon/maskie<num>.png",
       "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
@@ -1175,7 +1175,7 @@
   {
     "op": "add",
     "path": "/satelliteTypes/Moon/baseParameters/terrestrialType/-",
-    "value": "vsu_moon-crystalline"
+    "value": "vsu_moon-crystal"
   },
   {
     "op": "add",

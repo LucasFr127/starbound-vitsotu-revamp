@@ -1369,7 +1369,7 @@
 
   {
     "op": "add",
-    "path": "/planetTypes/vsu_moon-crystalline",
+    "path": "/planetTypes/vsu_moon-crystal",
     "value": {
       "gravityRange": [20, 20],
       "threatRange": [1, 1],
@@ -1381,7 +1381,7 @@
           "primaryRegion": ["void"]
         },
         "surface": {
-          "primaryRegion": ["vsu_moon-crystalline"]
+          "primaryRegion": ["vsu_moon-crystal"]
         },
         "subsurface": {
           "primaryRegion": ["moonunderground"]
@@ -2121,12 +2121,12 @@
 
   {
     "op": "add",
-    "path": "/regionTypes/vsu_moon-crystalline",
+    "path": "/regionTypes/vsu_moon-crystal",
     "value": {
       "blockSelector": ["remixedSurface"],
       "fgCaveSelector": ["moonSurfaceCaves"],
       "bgCaveSelector": ["empty"],
-      "biome": [[0, ["vsu_moon-crystalline"]]]
+      "biome": [[0, ["vsu_moon-crystal"]]]
     }
   },
   {

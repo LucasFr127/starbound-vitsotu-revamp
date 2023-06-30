@@ -1,6 +1,6 @@
 {
-  "name": "vsu_moon-crystalline",
-  "friendlyName": "Crystalline Moon",
+  "name": "vsu_moon-crystal",
+  "friendlyName": "Crystal Moon",
   "airless": true,
 
   "statusEffects": ["erchiussickness", "biomeairless"],
