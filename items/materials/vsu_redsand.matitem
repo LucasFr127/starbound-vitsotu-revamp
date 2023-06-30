@@ -2,7 +2,7 @@
   "itemName" : "vsu_redsand",
   "rarity" : "Common",
   "inventoryIcon" : "vsu_redsand.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "category" : "block",
   "description" : "A fine glittering red sand. Could probably be made into glass!",
   "shortdescription" : "Fine Sand",
   
