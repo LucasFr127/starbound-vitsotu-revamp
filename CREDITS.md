@@ -13,12 +13,23 @@ This document acknowledges and provides credits for the original author, contrib
 This project has benefited from the dedicated efforts of the following contributors:
 
 - [Wyvern](https://steamcommunity.com/id/Gweld/)
+- [SilverSokolova](https://steamcommunity.com/id/SilverSokolova)
 
 ## Other Mod Assets
 
 Assets from other mods have been used with open permissions. Here are the respective mods and authors:
 
-1. **Wasteland Planets Mod (DISCONTINUED)**
+1. **Legacy Biomes**
+    - Creator: [shadowwolftjc](https://steamcommunity.com/profiles/76561198027416439)
+    - Source: <https://steamcommunity.com/sharedfiles/filedetails/?id=885537700>
+    - Assets used: toxicplains mini-biome, heck treasurepools/treasurechests
+
+2. **Legacy Objects**
+    - Creator: [shadowwolftjc](https://steamcommunity.com/profiles/76561198027416439)
+    - Source: <https://steamcommunity.com/workshop/filedetails/?id=885536852>
+    - Assets used: heck objects
+
+3. **Wasteland Planets Mod (DISCONTINUED)**
     - Creator: [Monomer](https://community.playstarbound.com/members/monomer.24348/)
     - Source: <https://community.playstarbound.com/resources/wasteland-planets-mod-discontinued.853/>
     - Assets used: parallax, plants, sfx
@@ -61,5 +72,5 @@ These assets have been used under a paid license:
 
 Thank you to all the talented creators and contributors whose work has made this project possible. If you find that you have not been credited properly or if you wish to have your work removed, please contact me through one of the following methods:
 
-- GitHub: [LucasFr127](https://github.com/LucasFr127)
+- Discord: lucasfr127
 - Steam: [Wyvern](https://steamcommunity.com/id/Gweld/)
