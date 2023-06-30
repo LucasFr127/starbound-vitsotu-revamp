@@ -1656,7 +1656,6 @@
     "op": "add",
     "path": "/regionTypes/vsu_charred",
     "value": {
-      "caveLiquid": ["water"],
       "blockSelector": ["remixedSurface", "remixedMildSurface"],
       "fgCaveSelector": ["surfaceCaves"],
       "bgCaveSelector": ["empty"],
@@ -1694,7 +1693,6 @@
     "op": "add",
     "path": "/regionTypes/vsu_crystalline",
     "value": {
-      "caveLiquid": ["water"],
       "blockSelector": ["remixedSurface", "remixedMildSurface"],
       "fgCaveSelector": ["surfaceCaves"],
       "bgCaveSelector": ["empty"],
@@ -2058,7 +2056,6 @@
     "op": "add",
     "path": "/regionTypes/vsu_twilight",
     "value": {
-      "caveLiquid": ["water"],
       "blockSelector": ["remixedSurface", "remixedMildSurface"],
       "fgCaveSelector": ["surfaceCaves"],
       "bgCaveSelector": ["empty"],
@@ -2070,7 +2067,6 @@
     "op": "add",
     "path": "/regionTypes/vsu_umbra",
     "value": {
-      "caveLiquid": ["water"],
       "blockSelector": ["remixedSurface", "remixedMildSurface"],
       "fgCaveSelector": ["surfaceCaves"],
       "bgCaveSelector": ["empty"],
@@ -2096,7 +2092,7 @@
     "op": "add",
     "path": "/regionTypes/vsu_wasteland",
     "value": {
-      "caveLiquid": ["swampwater"],
+      "caveLiquid": ["tarliquid"],
       "blockSelector": ["remixedSurface", "remixedMildSurface"],
       "fgCaveSelector": ["surfaceCaves"],
       "bgCaveSelector": ["empty"],
