@@ -2159,6 +2159,7 @@
     "op": "add",
     "path": "/regionTypes/vsu_moon-toxic",
     "value": {
+      "caveLiquid": ["poison"],
       "blockSelector": ["remixedSurface"],
       "fgCaveSelector": ["moonSurfaceCaves"],
       "bgCaveSelector": ["empty"],
@@ -2169,6 +2170,8 @@
     "op": "add",
     "path": "/regionTypes/vsu_moon-volcanic",
     "value": {
+      "caveLiquid": ["lava"],
+      "caveLiquidSeedDensityRange": [1, 3],
       "blockSelector": ["remixedSurface"],
       "fgCaveSelector": ["moonSurfaceCaves"],
       "bgCaveSelector": ["empty"],
