@@ -1,8 +1,8 @@
 {
   "itemName" : "vsu_darkness",
   "rarity" : "Common",
+  "category" : "block",
   "inventoryIcon" : "vsu_darkness.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "Solid darkness found in the Umbra... How?",
   "shortdescription" : "Block of Darkness",
   

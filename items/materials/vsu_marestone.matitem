@@ -2,7 +2,7 @@
   "itemName" : "vsu_marestone",
   "rarity" : "Common",
   "inventoryIcon" : "vsu_marestone.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "category" : "block",
   "description" : "Rough, unrefined marestone.",
   "shortdescription" : "Unrefined Marestone",
   
