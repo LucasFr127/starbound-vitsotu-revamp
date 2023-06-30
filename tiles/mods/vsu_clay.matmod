@@ -1,9 +1,15 @@
 {
   "modId" : 700,
   "modName" : "vsu_clay",
-  "frames" : "vsu_clay.png",
-  "variants" : 5,
-  "Description" : "A light layer of clay.",
+  "description" : "A light layer of clay.",
   "footstepSound" : "/sfx/blocks/footstep_mud.ogg",
-  "health" : 0
+  "health" : 0,
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vsu_clay.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  } 
 }

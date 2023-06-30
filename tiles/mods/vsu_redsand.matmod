@@ -1,9 +1,15 @@
 {
   "modId" : 707,
   "modName" : "vsu_redsand",
-  "frames" : "vsu_redsand.png",
-  "variants" : 5,
-  "Description" : "Scattered sand.",
+  "description" : "Scattered sand.",
   "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
-  "health" : 0
+  "health" : 0,
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vsu_redsand.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
 }
